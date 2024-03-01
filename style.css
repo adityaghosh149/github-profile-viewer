@@ -1,0 +1,93 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: Poppins, sans-serif;
+}
+
+body {
+	background-color: #212121;
+	color: #fff;
+}
+
+h1 {
+	margin-top: 2rem;
+	text-align: center;
+}
+
+#form {
+	margin-top: 2rem;
+	text-align: center;
+}
+
+#form input,
+button {
+	font-size: 1rem;
+	padding: 0.5rem 1rem;
+	border: none;
+	outline: none;
+	border-radius: 0.3rem;
+}
+
+#form input {
+	width: 275px;
+	font-weight: 400;
+}
+
+#form button {
+	background-color: hsl(120, 100%, 35%);
+	color: #fff;
+	font-weight: bolder;
+	cursor: pointer;
+}
+
+#form button:hover {
+	background-color: hsl(120, 100%, 25%);
+}
+
+#message {
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 1.5rem;
+	text-align: center;
+	padding: 0.2rem 0;
+	width: 300px;
+	border-radius: 0.3rem;
+	background-color: red;
+}
+
+.hidden {
+	display: none;
+}
+
+#card {
+	border: 2px solid #fff;
+	width: 300px;
+	margin: 3rem auto;
+	border-radius: 1rem;
+}
+
+#card img {
+	width: 100%;
+	border-top-left-radius: 1rem;
+	border-top-right-radius: 1rem;
+}
+
+#details {
+	padding: 1rem;
+}
+
+#details p {
+	margin-bottom: 0.2rem;
+}
+
+#username a,
+#twitter a {
+	text-decoration: none;
+	color: #fff;
+}
+
+#twitter a:hover,
+#username a:hover {
+	text-decoration: underline;
+}
