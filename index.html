@@ -1,48 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="style.css" />
+		<title>GitHub Profile Viewer</title>
+	</head>
 
-    <link rel="stylesheet" href="style.css">
-    <title>Chai aur Code | API Reauest</title>
-</head>
+	<body>
+		<h1>GitHub Profile</h1>
 
-<body>
-    <h1>GitHub Profile</h1>
+		<div id="form">
+			<form>
+				<input
+					id="input-field"
+					type="text"
+					placeholder="GitHub Username"
+				/>
+				<button id="submit-buttom">Get Profile</button>
+			</form>
+		</div>
 
-    <div id="form">
-        <form>
-            <input id="input-field" type="text" placeholder="GitHub Username">
-            <button id="submit-buttom">Get Profile</button>
-        </form>
-    </div>
+		<div id="message" class="hidden"></div>
 
-    <div id="message" class="hidden">
-    </div>
+		<div id="card" class="hidden">
+			<img
+				src="https://avatars.githubusercontent.com/u/11613311?v=4"
+				alt="pfp"
+			/>
 
-    <div id="card" class="hidden">
-        <img src="https://avatars.githubusercontent.com/u/11613311?v=4" alt="pfp">
+			<div id="details">
+				<p id="username">
+					Username :
+					<a
+						href="https://github.com/hiteshchoudhary"
+						target="_blank"
+					>
+						<span>hiteshchoudhary</span>
+					</a>
+				</p>
+				<p id="name">Name : <span>Hitesh Choudhary</span></p>
+				<p id="followers">Followers : <span>15193</span></p>
+				<p id="repositories">Repositories : <span>81</span></p>
+				<p id="twitter">
+					Twitter :
+					<a href="https://twitter.com/hiteshdotcom" target="_blank">
+						<span>@hiteshdotcom</span>
+					</a>
+				</p>
+			</div>
+		</div>
 
-        <div id="details">
-            <p id="username">Username :
-                <a href="https://github.com/hiteshchoudhary" target="_blank">
-                    <span>hiteshchoudhary</span>
-                </a>
-            </p>
-            <p id="name">Name : <span>Hitesh Choudhary</span></p>
-            <p id="followers">Followers : <span>15193</span></p>
-            <p id="repositories">Repositories : <span>81</span> </p>
-            <p id="twitter">Twitter :
-                <a href="https://twitter.com/hiteshdotcom" target="_blank">
-                    <span>@hiteshdotcom</span>
-                </a>
-            </p>
-        </div>
-    </div>
-
-    <script src="script.js"></script>
-</body>
-
+		<script src="script.js"></script>
+	</body>
 </html>
